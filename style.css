@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ font-family: 'Open Sans', sans-serif;  
+}
+
+.navbar-brand h1{
+    letter-spacing: 15px;
+}
+.hero-body{
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.hero-media img{
+    background-color: yellow;
+}
+.fat{
+    font-weight: 800;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+h4{
+    text-transform: capitalize;
+    font-weight: 600;
+}
+ul li{
+    list-style-type: none;
+    padding: 0px 15px 0px 15px;
+    text-transform: capitalize;
+    
+}
+li a{
+    color: black;
+}
+.hero-text{
+    animation-delay: 1s;
+}
+.hero-content ,.top-btn{
+    animation-delay: 2s;
+}
+.hero-media img{
+    animation-delay: 2s;
+}
+
+
+@media screen and (max-width:1080px){
+    .hero-content{
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+    .hero-media img{
+         justify-content: space-around;
+         width: 360px;
+    }
+    .layer-content{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .about{
+
+        text-align: center;
+    }
+    .about-text{
+        justify-content: space-evenly;
+    }
+    .about-img img{
+        width: 320px;
+        justify-content: flex-start;
+        
+    }
+    .education h1{
+        font-size: 30px;
+    }
+    .experience h1{
+        font-size: 30px;
+    }
+    
+} 
+
+@media screen and (min-width:720px) and (max-width:1080px){
+    #card-2{
+        margin-bottom:25px;
+    }
+    
+} 
+
+/* .about{
+    padding: 40px 50px;
+} */
+.flip-card { 
+    background-color: blueviolet;
+	width: 250px; 
+	height: 250px;  
+	perspective: 1000px; 
+} 
+.front-side { 
+	position: relative; 
+	text-align: center; 
+	transition: transform 0.6s; 
+	transform-style: preserve-3d; 
+} 
+.flip-card:hover .front-side { 
+	transform: rotateY(180deg); 
+
+} 
+.front-side, .back-side { 
+	position: absolute; 
+	backface-visibility: hidden; 
+} 
+.back-side { 
+	transform: rotateY(180deg); 
+    color: black;
+    
+} 
+#wd img{
+    width: 80px;
+}
+#ps img{
+    width: 100px;
+}
+#ui img{
+    width: 100px;
+}
+/* ######################################### */
+
+/* .flip-card {
+    background-color: transparent; */
+    /* width: 100px;
+    height: 150px; */
+    /* perspective: 1000px;
+    padding: 15px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+#mv img{
+    height: 100px;
+    width: 200px;
+}
+#game img{
+    height: 100px;
+    width: 100px;
+}
+#code img{
+    height: 90px;
+    width: 90px;
+} */
+.sticky{
+position: fixed;
+top: 35vh;
+padding: 10px ;
+font-size: 20px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+
+}
+
+.ins, .twi , .dis{
+    padding: 10px;
+}
+.wrapper{
+    justify-content: space-between;
+    
+}
+.media img{
+    height: 400px;
+    width: 700px;
+}
